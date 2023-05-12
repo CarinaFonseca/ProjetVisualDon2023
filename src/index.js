@@ -3,7 +3,7 @@ import { csv } from "../node_modules/d3-fetch";
 import { select } from '../node_modules/d3-selection';
 import { forceSimulation, forceX, forceY , forceManyBody, forceCollide } from "d3-force";
 //Import des données
-csv("data/rachel_wine_ratings.csv")
+csv("data/rachelwineratings.csv")
     .then(function(data) {
         var width = 800, height = 1000
         var nodes = data;
